@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://font.googleapis.com/css?family=Open+Sans:300,400,600">
+    <link rel="stylesheet" href="main.css">
+    <title>UMa: Residências Universitárias</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <header>
+            <form action="#" class="search">
+                <input type="text" class="search__input" placeholder="Pesquisar residências">
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="symbol-defs.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                            <use xlink:href="symbol-defs.svg#icon-bookmark"></use>
+                        </svg>
+                    <span class="user-nav__notification">7</span>
+                </div>
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                            <use xlink:href="symbol-defs.svg#icon-chat"></use>
+                        </svg>
+                    <span class="user-nav__notification">13</span>
+                </div>
+                <div class="user-nav__user">
+                    <img src="porto.jpg" alt="User photo" class="user-nav__user-photo">
+                    <span class="user-nav__user-name">Anónimo</span>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item dise-nav__item--active">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="symbol-defs.svg#icon-home"></use>
+                            </svg>
+                            <span>Quartos</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="symbol-defs.svg#icon-shop"></use>
+                            </svg>
+                            <span>Receção</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="symbol-defs.svg#icon-bowl"></use>
+                            </svg>
+                            <span>Bar</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="symbol-defs.svg#icon-game-controller"></use>
+                            </svg>
+                            <span>Espaços</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="legal">
+                    Copyright &copy; UNIVERSIDADE DA MADEIRA
+                </div>
+            </nav>
+            <main class="residencia-view">
+                <div class="gallery">
+                    <figure class="gallery__item">
+                        <img src="quarto.jpg" alt="quartos da residência" class="gallery__photo"></figure>
+                    <figure class="gallery__item">
+                        <img src="quartos.jpg" alt="quartos da residência" class="gallery__photo"></figure>
+                    <figure class="gallery__item">
+                        <img src="recepcao.jpg" alt="rececao" class="gallery__photo"></figure>
+                    <figure class="gallery__item">
+                        <img src="bar.jpg" alt="bar" class="gallery__photo"></figure>
+                    <figure class="gallery__item">
+                        <img src="espaco.jpg" alt="espaços comuns" class="gallery__photo"></figure>
+                </div>
+                <div class="overview">
+                    <h1 class="overview__heading">
+                        RESIDÊNCIA NOSSA Srª DAS VITÓRIAS
+                    </h1>
+                    <div class="overview__stars">
+                        <svg class="overview__icon-star">
+                                <use xlink:href="symbol-defs.svg#icon-star"></use>
+                            </svg>
+                        <svg class="overview__icon-star">
+                                <use xlink:href="symbol-defs.svg#icon-star"></use>
+                            </svg>
+                        <svg class="overview__icon-star">
+                                <use xlink:href="symbol-defs.svg#icon-star"></use>
+                            </svg>
+                        <svg class="overview__icon-star">
+                                <use xlink:href="symbol-defs.svg#icon-star"></use>
+                            </svg>
+                        <svg class="overview__icon-star">
+                                <use xlink:href="symbol-defs.svg#icon-star-outlined"></use>
+                            </svg>
+                    </div>
+
+                    <div class="overview__location">
+                        <svg class="over__icon-location">
+                                <use xlink:href="symbol-defs.svg#icon-location-pin"></use>
+                            </svg>
+                        <button class="btn-inline">Rua de Santa Maria, nº253></button>
+                    </div>
+
+                    <div class="overview__rating">
+                        <div class="overview__rating-average">8.6</div>
+                        <div class="overview__rating-count">429 votos</div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
